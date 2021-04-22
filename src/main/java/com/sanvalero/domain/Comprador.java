@@ -21,5 +21,17 @@ public class Comprador extends Persona {
         this.cochesComprados = cochesComprados;
     }
 
-
+    @Override
+    public String toString() {
+        return "Comprador{" +
+                "ID = " + getId() +
+                ", nombre = " + getNombre() +
+                ", apellido = " + getApellido() +
+                ", DNI = " + getDNI() +
+                ", telefono = " + getTelefono() +
+                ", email = " + getEmail() +
+                ", importe = " + importe +
+                ", cochesComprados = " + cochesComprados +
+                '}';
+    }
 }

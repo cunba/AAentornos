@@ -20,4 +20,18 @@ public class Vendedor extends Persona{
     public void setCochesVendidos(int cochesVendidos) {
         this.cochesVendidos = cochesVendidos;
     }
+
+    @Override
+    public String toString() {
+        return "Vendedor{" +
+                "ID = " + getId() +
+                ", nombre = " + getNombre() +
+                ", apellido = " + getApellido() +
+                ", DNI = " + getDNI() +
+                ", telefono = " + getTelefono() +
+                ", email = " + getEmail() +
+                ", sueldo = " + sueldo +
+                ", cochesVendidos = " + cochesVendidos +
+                '}';
+    }
 }

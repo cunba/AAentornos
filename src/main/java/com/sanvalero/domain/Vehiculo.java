@@ -69,4 +69,17 @@ public class Vehiculo {
         }
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "Vehiculo{" +
+                "ID ='" + id + '\'' +
+                ", matricula ='" + matricula + '\'' +
+                ", marca ='" + marca + '\'' +
+                ", modelo ='" + modelo + '\'' +
+                ", tipo ='" + tipo + '\'' +
+                ", caballos =" + caballos +
+                ", precio =" + precio +
+                '}';
+    }
 }
