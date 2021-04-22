@@ -9,7 +9,6 @@ public class Vehiculo {
     private final String tipo;
     private final int caballos;
     private float precio;
-    private boolean nuevo;
 
     public Vehiculo(String id, String matricula, String marca, String modelo, String tipo, int caballos) {
         this.id = id;
@@ -50,14 +49,6 @@ public class Vehiculo {
 
     public void setPrecio(float precio) {
         this.precio = precio;
-    }
-
-    public boolean isNuevo() {
-        return nuevo;
-    }
-
-    public void setNuevo(boolean nuevo) {
-        this.nuevo = nuevo;
     }
 
     @Override

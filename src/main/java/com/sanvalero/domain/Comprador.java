@@ -13,10 +13,6 @@ public class Comprador extends Persona {
         return importe;
     }
 
-    public void setImporte(float importe) {
-        this.importe = importe;
-    }
-
     public int getCochesComprados() {
         return cochesComprados;
     }
